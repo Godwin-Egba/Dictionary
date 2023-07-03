@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="./plugins/fontawesome/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #a8dadc;
+        }
+
+        p{
+            line-height: 15px;
+            color:grey;
+        }
+
+        .card{
+            height: 85vh;
+            position: relative;
+        }
+
+        .volume{
+            position: absolute;
+            top: 175px;
+            right: 35px;
+            font-size: 20px;
+        }
+        
+          
+    @media (max-width:576px) {
+
+        .card{
+            height: 95vh;
+            background-color: #a8dadc;
+            position: relative;
+        }
+
+        .volume{
+            position: absolute;
+            top: 185px;
+            right: 35px;
+            font-size: 20px;
+        }
+
+        h1{
+            font-size: 30px;
+            margin-bottom: 2rem;
+        }
+
+        body{
+            background-color: white;
+        }
+
+
+
+        
+    }
+        
+        
+    </style>
+</head>
+<body>
+
+
+    <div class="card col-md-4 my-5 py-5 px-4 mx-auto">
+        <h1 class="text-center display-5">ENGLISH DICTIONARY</h1>
+      
+        <!-- <div class="search">
+            <i class="fa fa-search"></i>
+        </div>
+
+        <div class="close">
+            <i class=" fa fa-close"></i>
+        </div> -->
+
+        <div class="volume">
+            <i class="fa fa-volume-up"></i>
+        </div>
+        
+   <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="my-addon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></span>
+            </div>
+           
+            <input class="form-control " type="text" name="" placeholder="search here" aria-label="Recipient's text" aria-describedby="my-addon">
+
+            <div class="input-group-append">
+                <span class="input-group-text" id="my-addon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg></span>
+            </div>
+        </div>
+      
+
+        <div class=" mt-3">
+            <h4>Happy</h4>
+            <p>adjective  /hapi/</p>
+
+        </div>
+        
+        <hr>
+        <div class=" mt-3">
+            <h4>Meaning</h4>
+            <p>Feeling or showing pleasure or contentment</p>
+
+        </div>
+
+        <hr>
+        <div class=" mt-3">
+            <h4>Example</h4>
+            <p>Prokash come in looking happy and excited</p>
+
+        </div>
+
+        <hr>
+        <div class=" mt-3">
+            <h4>Synonyms</h4>
+            <p>glad, contented, delightful and joyful</p>
+
+        </div>
+
+
+    </div>
+    
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
